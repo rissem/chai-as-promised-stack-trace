@@ -1,8 +1,8 @@
+global.Promise = require 'bluebird'
 chai = require('chai');
 chai.should();
 chaiAsPromised = require("chai-as-promised");
 chai.use(chaiAsPromised)
-Promise = require 'lie'
 
 promiser = ->
   new Promise (resolve, reject)->
